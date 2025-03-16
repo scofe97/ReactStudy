@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "allowImportingTsExtensions": true,
+        "noEmit": true, // ✅ 이 옵션 추가
+        "lib": ["dom", "esnext"],
+        "types": ["cypress"]
+    }
+}

@@ -9,5 +9,6 @@ describe("Section", () => {
 
         expect(screen.getByText("Basic")).toBeInTheDocument();
         expect(screen.getByText("Hello world")).toBeInTheDocument();
+
     });
 });
